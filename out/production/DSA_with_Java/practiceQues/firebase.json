@@ -1,0 +1,17 @@
+{
+  "users": {
+    "user1": {
+      "sensor_data": {
+        "temperature": 30,
+        "humidity": 75,
+        "ph": 6.5,
+        "rainfall": 200
+      },
+      "predictions": {
+        "disease": "Healthy",
+        "irrigation": "No",
+        "yield": 3.4
+      }
+    }
+  }
+}
