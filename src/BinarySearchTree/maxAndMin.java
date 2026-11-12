@@ -25,7 +25,7 @@ public class maxAndMin {
 
         int min = Integer.MAX_VALUE;
         while(root != null){
-            min = Math.min(min, root.val);
+            min = Math.min(min, root.data);
             root = root.left;
         }
         return min;
@@ -35,7 +35,7 @@ public class maxAndMin {
 
         int max = Integer.MIN_VALUE;
         while(root != null){
-            max = Math.max(max, root.val);
+            max = Math.max(max, root.data);
             root = root.right;
         } 
         return max;

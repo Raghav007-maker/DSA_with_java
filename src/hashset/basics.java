@@ -1,6 +1,7 @@
 package hashset;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 public class basics {
@@ -17,6 +18,11 @@ public class basics {
 
         for(int ele : set){
             System.out.println(ele);
+        }
+        Iterator<Integer> it =  set.iterator();
+        System.out.println(set);
+        while(it.hasNext()){
+            System.out.println(it.next());
         }
     }
 }
